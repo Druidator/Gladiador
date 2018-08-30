@@ -34,7 +34,11 @@ public class Main {
 
         romano.peleaGladiadores("Aquiles", "Hercules");
 
+<<<<<<< HEAD
         romano.peleaGladiadores("Hercules", "Hercules");
+=======
+        romano.peleaGladiadores("Hercules", "Antonidas");
+>>>>>>> master
 
     }
 }
