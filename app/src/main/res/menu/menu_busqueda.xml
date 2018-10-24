@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Crear este menu con el ActionViewClass que sea de soporte y SearchView con su icono para poder
+    hacer la busqueda-->
+
+    <item
+        android:id="@+id/busqueda"
+        android:title="@string/buscar"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_search"
+        />
+
+</menu>
